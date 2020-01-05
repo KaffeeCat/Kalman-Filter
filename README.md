@@ -85,7 +85,7 @@ P = P' - KHP'               # best estimate state variance
 ```
 
 ### Example :
-We assume a car is moving on the map, wo got the position (x,y) in time during 0 to 100, and the route is simulated by (sin(t),cos(t),t) as below:
+We assume a car is moving on the map, we got the position (x,y) in time during 0 to 100, and the route is simulated by (sin(t),cos(t),t) as below:
 ![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman2d_a.png?raw=true)
 
 We predict and correct state by Kalman filter, just like below:
