@@ -33,5 +33,5 @@ P = (1 - K) * P
 #### Simulation results
 ![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman1d.png?raw=true)
 
-#### [View code in Jupyter Notebook](https://www.apple.com)
+#### [View code in Jupyter Notebook](https://nbviewer.jupyter.org/github/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_1D.ipynb)
 
