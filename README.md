@@ -1,6 +1,6 @@
 # Kalman Filter Examples
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png) Here give you some exmaples to demonstrate how to use Kalman filter in projects. If you wanna read detail about Kalman filter, here's the references : [English](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) and [中文](https://kaffeecat.github.io/blogs/docs/KalmanFilter.html)
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png) Here give you some examples to demonstrate how to use Kalman filter in projects. If you wanna read detail about Kalman filter, here's the references : [English](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) and [中文](https://kaffeecat.github.io/blogs/docs/KalmanFilter.html)
 
 ## 1. Kalman filter in 1D space
 Assume you got signal from a sensor, to measure the distance, temperature or volume, there exist noise in sensor, how to correct and predict the real value ?
