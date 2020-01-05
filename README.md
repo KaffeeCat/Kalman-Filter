@@ -33,5 +33,17 @@ P = (1 - K) * P
 #### Simulation results
 ![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman1d.png?raw=true)
 
-#### [View code in Jupyter Notebook](https://nbviewer.jupyter.org/github/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_1D.ipynb)
+#### [Download code](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_1D.ipynb) or [View in Jupyter Notebook](https://nbviewer.jupyter.org/github/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_1D.ipynb)
 
+
+### 2. Kalman filter in 2D space
+Assume you got signal from a sensor or tracking object in GPS, to measure the position(x,y) and in consideration of the velocity, there exist noise in sensor, how to correct and predict the read state ?
+
+#### Example :
+We assume a car is moving on the map, wo got the position (x,y) in time during 0 to 100, and the route is simulated by (sin(t),cos(t),t) as below:
+![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman2d_a.png?raw=true)
+
+We predict and correct state by Kalman filter, just like below:
+![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman2d_b.png?raw=true)
+
+#### [Download code](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_2D.ipynb) or [View in Jupyter Notebook](https://nbviewer.jupyter.org/github/KaffeeCat/Kalman-Filter/blob/master/Sources/Kalman_2D.ipynb)
