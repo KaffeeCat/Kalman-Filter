@@ -31,4 +31,7 @@ P = (1 - K) * P
 ```
 
 #### Simulation results
-![](Images/Kalman1d.png)
+![](https://github.com/KaffeeCat/Kalman-Filter/blob/master/Images/kalman1d.png?raw=true)
+
+#### [View code in Jupyter Notebook](https://www.apple.com)
+
